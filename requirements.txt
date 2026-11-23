@@ -1,0 +1,7 @@
+# Python dependencies for this repo's recon scripts.
+# Kali tools (theHarvester, dnsrecon) are external — see docs/03-kali-tools.md.
+requests>=2.31
+dnspython>=2.6
+PyYAML>=6.0
+# dnsrecon (optional, run via scripts/run_dnsrecon.py on Python 3.14):
+dnsrecon>=0.10

@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-11-23T20:29:40.137709+00:00",
+  "target": "megacorpone.com",
+  "records": {
+    "A": [
+      "149.56.244.87"
+    ],
+    "AAAA": [],
+    "MX": [
+      "10 fb.mail.gandi.net.",
+      "20 spool.mail.gandi.net.",
+      "50 mail.megacorpone.com.",
+      "60 mail2.megacorpone.com."
+    ],
+    "NS": [
+      "ns1.megacorpone.com.",
+      "ns2.megacorpone.com.",
+      "ns3.megacorpone.com."
+    ],
+    "TXT": [
+      "\"Try Harder\"",
+      "\"google-site-verification=U7B_b0HNeBtY4qYGQZNsEYXfCJ32hMNV3GtC0wWq5pA\""
+    ],
+    "SOA": [
+      "ns1.megacorpone.com. admin.megacorpone.com. 202508051 28800 7200 2419200 300"
+    ],
+    "CNAME": []
+  },
+  "zone_transfer_direct": [
+    {
+      "nameserver": "ns1.megacorpone.com",
+      "success": false,
+      "records": [],
+      "error": "TimeoutError: [Errno 10060] Unknown error"
+    },
+    {
+      "nameserver": "ns2.megacorpone.com",
+      "success": false,
+      "records": [],
+      "error": "TimeoutError: [Errno 10060] Unknown error"
+    },
+    {
+      "nameserver": "ns3.megacorpone.com",
+      "success": false,
+      "records": [],
+      "error": "TimeoutError: [Errno 10060] Unknown error"
+    }
+  ],
+  "zone_transfer_https_fallback": {
+    "method": "https-vantage-point (hackertarget)",
+    "success": true,
+    "records": [
+      "megacorpone.com.\t300\tIN\tSOA\tns1.megacorpone.com. admin.megacorpone.com. 202508051 28800 7200 2419200 300",
+      "megacorpone.com.\t300\tIN\tA\t149.56.244.87",
+      "megacorpone.com.\t300\tIN\tTXT\t\"Try Harder\"",
+      "megacorpone.com.\t300\tIN\tTXT\t\"google-site-verification=U7B_b0HNeBtY4qYGQZNsEYXfCJ32hMNV3GtC0wWq5pA\"",
+      "megacorpone.com.\t300\tIN\tMX\t10 fb.mail.gandi.net.",
+      "megacorpone.com.\t300\tIN\tMX\t20 spool.mail.gandi.net.",
+      "megacorpone.com.\t300\tIN\tMX\t50 mail.megacorpone.com.",
+      "megacorpone.com.\t300\tIN\tMX\t60 mail2.megacorpone.com.",
+      "megacorpone.com.\t300\tIN\tNS\tns1.megacorpone.com.",
+      "megacorpone.com.\t300\tIN\tNS\tns2.megacorpone.com.",
+      "megacorpone.com.\t300\tIN\tNS\tns3.megacorpone.com.",
+      "admin.megacorpone.com.\t300\tIN\tA\t167.114.21.64",
+      "ai.megacorpone.com.\t300\tIN\tA\t149.56.244.87",
+      "beta.megacorpone.com.\t300\tIN\tA\t167.114.21.65",
+      "fs1.megacorpone.com.\t300\tIN\tA\t167.114.21.66",
+      "intranet.megacorpone.com. 300\tIN\tA\t167.114.21.67",
+      "mail.megacorpone.com.\t300\tIN\tA\t167.114.21.68",
+      "mail2.megacorpone.com.\t300\tIN\tA\t167.114.21.69",
+      "ns1.megacorpone.com.\t300\tIN\tA\t51.79.37.18",
+      "ns2.megacorpone.com.\t300\tIN\tA\t51.222.39.63",
+      "ns3.megacorpone.com.\t300\tIN\tA\t66.70.207.180",
+      "router.megacorpone.com.\t300\tIN\tA\t167.114.21.70",
+      "siem.megacorpone.com.\t300\tIN\tA\t167.114.21.71",
+      "snmp.megacorpone.com.\t300\tIN\tA\t167.114.21.72",
+      "support.megacorpone.com. 300\tIN\tA\t167.114.21.74",
+      "syslog.megacorpone.com.\t300\tIN\tA\t167.114.21.73",
+      "test.megacorpone.com.\t300\tIN\tA\t167.114.21.75",
+      "vpn.megacorpone.com.\t300\tIN\tA\t167.114.21.76",
+      "vpn2.megacorpone.com.\t300\tIN\tA\t167.114.21.77",
+      "vpndev.megacorpone.com.\t300\tIN\tA\t167.114.21.78",
+      "vpnprod.megacorpone.com. 300\tIN\tA\t167.114.21.79",
+      "www.megacorpone.com.\t300\tIN\tA\t149.56.244.87",
+      "www2.megacorpone.com.\t300\tIN\tA\t149.56.244.87",
+      "megacorpone.com.\t300\tIN\tSOA\tns1.megacorpone.com. admin.megacorpone.com. 202508051 28800 7200 2419200 300"
+    ],
+    "subdomains": [
+      "admin.megacorpone.com",
+      "ai.megacorpone.com",
+      "beta.megacorpone.com",
+      "fs1.megacorpone.com",
+      "intranet.megacorpone.com",
+      "mail.megacorpone.com",
+      "mail2.megacorpone.com",
+      "megacorpone.com",
+      "ns1.megacorpone.com",
+      "ns2.megacorpone.com",
+      "ns3.megacorpone.com",
+      "router.megacorpone.com",
+      "siem.megacorpone.com",
+      "snmp.megacorpone.com",
+      "support.megacorpone.com",
+      "syslog.megacorpone.com",
+      "test.megacorpone.com",
+      "vpn.megacorpone.com",
+      "vpn2.megacorpone.com",
+      "vpndev.megacorpone.com",
+      "vpnprod.megacorpone.com",
+      "www.megacorpone.com",
+      "www2.megacorpone.com"
+    ],
+    "error": null
+  },
+  "subdomains_from_axfr": [
+    "admin.megacorpone.com",
+    "ai.megacorpone.com",
+    "beta.megacorpone.com",
+    "fs1.megacorpone.com",
+    "intranet.megacorpone.com",
+    "mail.megacorpone.com",
+    "mail2.megacorpone.com",
+    "megacorpone.com",
+    "ns1.megacorpone.com",
+    "ns2.megacorpone.com",
+    "ns3.megacorpone.com",
+    "router.megacorpone.com",
+    "siem.megacorpone.com",
+    "snmp.megacorpone.com",
+    "support.megacorpone.com",
+    "syslog.megacorpone.com",
+    "test.megacorpone.com",
+    "vpn.megacorpone.com",
+    "vpn2.megacorpone.com",
+    "vpndev.megacorpone.com",
+    "vpnprod.megacorpone.com",
+    "www.megacorpone.com",
+    "www2.megacorpone.com"
+  ],
+  "subdomain_count": 23
+}

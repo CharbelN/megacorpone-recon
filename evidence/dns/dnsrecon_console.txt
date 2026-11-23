@@ -1,0 +1,11 @@
+# dnsrecon run — Mon, Nov 23, 2026 10:34:56 PM
+# Command: python scripts/run_dnsrecon.py -n 172.20.10.1 -d megacorpone.com -t std
+# Note: dnsrecon imports & runs (Python 3.14 shim works), but its direct
+#       port-53 queries to the authoritative NS are blocked by the mobile
+#       carrier (outbound TCP/UDP 53 filtered). Standard records + the zone
+#       transfer are captured via working paths in dns_enum.json instead.
+---
+[*] std: Performing General Enumeration against: megacorpone.com...
+[-] A timeout error occurred please make sure you can reach the target DNS Servers
+[-] directly and requests are not being filtered. Increase the timeout from 6.0 second
+[-] to a higher number with --lifetime <time> option.

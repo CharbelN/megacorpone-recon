@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-11-23T20:30:05.290736+00:00",
+  "target": "megacorpone.com",
+  "crtsh_subdomains": [
+    "ai.megacorpone.com",
+    "www.megacorpone.com"
+  ],
+  "resolved_subdomains": {
+    "www.megacorpone.com": [
+      "149.56.244.87"
+    ],
+    "www2.megacorpone.com": [
+      "149.56.244.87"
+    ],
+    "mail.megacorpone.com": [
+      "167.114.21.68"
+    ],
+    "mail2.megacorpone.com": [
+      "167.114.21.69"
+    ],
+    "ns1.megacorpone.com": [
+      "51.79.37.18"
+    ],
+    "ns2.megacorpone.com": [
+      "51.222.39.63"
+    ],
+    "ns3.megacorpone.com": [
+      "66.70.207.180"
+    ],
+    "admin.megacorpone.com": [
+      "167.114.21.64"
+    ],
+    "intranet.megacorpone.com": [
+      "167.114.21.67"
+    ],
+    "vpn.megacorpone.com": [
+      "167.114.21.76"
+    ],
+    "beta.megacorpone.com": [
+      "167.114.21.65"
+    ],
+    "test.megacorpone.com": [
+      "167.114.21.75"
+    ],
+    "router.megacorpone.com": [
+      "167.114.21.70"
+    ],
+    "siem.megacorpone.com": [
+      "167.114.21.71"
+    ],
+    "snmp.megacorpone.com": [
+      "167.114.21.72"
+    ],
+    "syslog.megacorpone.com": [
+      "167.114.21.73"
+    ],
+    "support.megacorpone.com": [
+      "167.114.21.74"
+    ]
+  },
+  "all_subdomains": [
+    "admin.megacorpone.com",
+    "ai.megacorpone.com",
+    "beta.megacorpone.com",
+    "intranet.megacorpone.com",
+    "mail.megacorpone.com",
+    "mail2.megacorpone.com",
+    "ns1.megacorpone.com",
+    "ns2.megacorpone.com",
+    "ns3.megacorpone.com",
+    "router.megacorpone.com",
+    "siem.megacorpone.com",
+    "snmp.megacorpone.com",
+    "support.megacorpone.com",
+    "syslog.megacorpone.com",
+    "test.megacorpone.com",
+    "vpn.megacorpone.com",
+    "www.megacorpone.com",
+    "www2.megacorpone.com"
+  ],
+  "counts": {
+    "crtsh": 2,
+    "resolved_bruteforce": 17,
+    "combined_unique": 18
+  }
+}

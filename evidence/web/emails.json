@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-11-23T20:38:27.475420+00:00",
+  "target": "megacorpone.com",
+  "source": "target public website (HTTPS crawl)",
+  "pages_fetched": 14,
+  "emails_found": [
+    "agrofield@megacorpone.com",
+    "hr@megacorpone.com",
+    "joe@megacorpone.com",
+    "mcarlow@megacorpone.com",
+    "msmith@megacorpone.com",
+    "sales@megacorpone.com",
+    "shipping@megacorpone.com",
+    "thudson@megacorpone.com",
+    "trivera@megacorpone.com"
+  ],
+  "email_count": 9,
+  "naming_convention": "likely {first-initial}{surname} (e.g. jdoe@megacorpone.com)"
+}

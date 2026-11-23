@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# scope.yaml — engagement scope for the Megacorpone reconnaissance.
+#
+# Same guardrail concept as the SQLi/XSS lab: a single source of truth that keeps
+# the tooling pointed only at the authorized target. All recon here is PASSIVE /
+# OSINT — reading information that is already public (DNS, certificate
+# transparency, search engines, the target's own website). No accounts, systems,
+# or private data are accessed.
+# ---------------------------------------------------------------------------
+
+engagement:
+  name: "Reconnaissance — megacorpone.com"
+  # megacorpone.com is Offensive Security's public, intentional reconnaissance
+  # training target (used in PEN-200 / OSCP). It exists to be enumerated.
+  authorization: "Public OffSec reconnaissance training target. Passive OSINT only."
+  operator: "CharbelN"
+  type: "passive-osint"
+
+scope:
+  # Primary domain and anything under it.
+  root_domain: "megacorpone.com"
+  allowed_domains:
+    - "megacorpone.com"
+  # Known authoritative nameservers (from the NS record).
+  nameservers:
+    - "ns1.megacorpone.com"
+    - "ns2.megacorpone.com"
+    - "ns3.megacorpone.com"
+
+rules:
+  # What this engagement will and will not do.
+  passive_only: true
+  do_not:
+    - "authenticate to or access any account"
+    - "submit credentials to Hunter.io / HIBP / DNSDumpster / Postman"
+    - "run exploits, port scans of non-owned hosts, or intrusive active scans"
+    - "publish any real secret, credential, or private personal data discovered"
+  note: >
+    DNS zone-transfer (AXFR) is attempted against the target's own authoritative
+    nameservers. On megacorpone this is the canonical training lesson (the servers
+    are deliberately misconfigured to allow it); it reads public DNS data only.

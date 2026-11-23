@@ -1,0 +1,248 @@
+{
+  "generated_at": "2026-11-23T20:39:26.742346+00:00",
+  "target": "megacorpone.com",
+  "dns_records": {
+    "A": [
+      "149.56.244.87"
+    ],
+    "AAAA": [],
+    "MX": [
+      "10 fb.mail.gandi.net.",
+      "20 spool.mail.gandi.net.",
+      "50 mail.megacorpone.com.",
+      "60 mail2.megacorpone.com."
+    ],
+    "NS": [
+      "ns1.megacorpone.com.",
+      "ns2.megacorpone.com.",
+      "ns3.megacorpone.com."
+    ],
+    "TXT": [
+      "\"Try Harder\"",
+      "\"google-site-verification=U7B_b0HNeBtY4qYGQZNsEYXfCJ32hMNV3GtC0wWq5pA\""
+    ],
+    "SOA": [
+      "ns1.megacorpone.com. admin.megacorpone.com. 202508051 28800 7200 2419200 300"
+    ],
+    "CNAME": []
+  },
+  "nameservers": [
+    "ns1.megacorpone.com.",
+    "ns2.megacorpone.com.",
+    "ns3.megacorpone.com."
+  ],
+  "mail_servers": [
+    "10 fb.mail.gandi.net.",
+    "20 spool.mail.gandi.net.",
+    "50 mail.megacorpone.com.",
+    "60 mail2.megacorpone.com."
+  ],
+  "zone_transfer": {
+    "allowed_by_target": true,
+    "obtained_via": "https vantage point (local TCP/53 blocked by carrier)",
+    "host_count": 22
+  },
+  "subdomains": [
+    {
+      "host": "admin.megacorpone.com",
+      "ip": "167.114.21.64",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "ai.megacorpone.com",
+      "ip": "149.56.244.87",
+      "sources": [
+        "crt.sh",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "beta.megacorpone.com",
+      "ip": "167.114.21.65",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "fs1.megacorpone.com",
+      "ip": "167.114.21.66",
+      "sources": [
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "intranet.megacorpone.com",
+      "ip": "167.114.21.67",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "mail.megacorpone.com",
+      "ip": "167.114.21.68",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "mail2.megacorpone.com",
+      "ip": "167.114.21.69",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "megacorpone.com",
+      "ip": null,
+      "sources": [
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "ns1.megacorpone.com",
+      "ip": "51.79.37.18",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "ns2.megacorpone.com",
+      "ip": "51.222.39.63",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "ns3.megacorpone.com",
+      "ip": "66.70.207.180",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "router.megacorpone.com",
+      "ip": "167.114.21.70",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "siem.megacorpone.com",
+      "ip": "167.114.21.71",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "snmp.megacorpone.com",
+      "ip": "167.114.21.72",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "support.megacorpone.com",
+      "ip": "167.114.21.74",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "syslog.megacorpone.com",
+      "ip": "167.114.21.73",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "test.megacorpone.com",
+      "ip": "167.114.21.75",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "vpn.megacorpone.com",
+      "ip": "167.114.21.76",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "vpn2.megacorpone.com",
+      "ip": "167.114.21.77",
+      "sources": [
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "vpndev.megacorpone.com",
+      "ip": "167.114.21.78",
+      "sources": [
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "vpnprod.megacorpone.com",
+      "ip": "167.114.21.79",
+      "sources": [
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "www.megacorpone.com",
+      "ip": "149.56.244.87",
+      "sources": [
+        "crt.sh",
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    },
+    {
+      "host": "www2.megacorpone.com",
+      "ip": "149.56.244.87",
+      "sources": [
+        "resolver-bruteforce",
+        "zone-transfer"
+      ]
+    }
+  ],
+  "subdomain_count": 23,
+  "emails": [
+    "agrofield@megacorpone.com",
+    "hr@megacorpone.com",
+    "joe@megacorpone.com",
+    "mcarlow@megacorpone.com",
+    "msmith@megacorpone.com",
+    "sales@megacorpone.com",
+    "shipping@megacorpone.com",
+    "thudson@megacorpone.com",
+    "trivera@megacorpone.com"
+  ],
+  "email_convention": "likely {first-initial}{surname} (e.g. jdoe@megacorpone.com)",
+  "sources": {
+    "dns_records": "scripts/dns_enum.py (dnspython via system resolver)",
+    "zone_transfer": "scripts/dns_enum.py HTTPS fallback (hackertarget)",
+    "subdomains": "scripts/subdomain_enum.py (crt.sh + resolver brute force)",
+    "emails": "scripts/email_harvest.py (target website HTTPS crawl)",
+    "github": "evidence/github/ (gh search)",
+    "google_dorks": "evidence/dorks/google-dorks.md"
+  }
+}
